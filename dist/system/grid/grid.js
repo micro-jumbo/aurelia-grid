@@ -1,6 +1,6 @@
 'use strict';
 
-System.register(['aurelia-framework', './grid/grid-column'], function (_export, _context) {
+System.register(['aurelia-framework', './grid-column'], function (_export, _context) {
 	"use strict";
 
 	var bindable, inject, BindingEngine, customElement, processContent, TargetInstruction, GridColumn, ViewCompiler, ViewSlot, ViewResources, Container, _dec, _dec2, _dec3, _class, _desc, _value, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _descriptor16, _descriptor17, _descriptor18, _descriptor19, _descriptor20, _descriptor21, _descriptor22, _descriptor23, _descriptor24, _descriptor25, _descriptor26, Grid;
@@ -93,8 +93,8 @@ System.register(['aurelia-framework', './grid/grid-column'], function (_export, 
 			ViewSlot = _aureliaFramework.ViewSlot;
 			ViewResources = _aureliaFramework.ViewResources;
 			Container = _aureliaFramework.Container;
-		}, function (_gridGridColumn) {
-			GridColumn = _gridGridColumn.GridColumn;
+		}, function (_gridColumn) {
+			GridColumn = _gridColumn.GridColumn;
 		}],
 		execute: function () {
 			_export('Grid', Grid = (_dec = customElement('grid'), _dec2 = processContent(function (viewCompiler, viewResources, element, instruction) {

@@ -44,7 +44,7 @@ function _initializerWarningHelper(descriptor, context) {
 }
 
 import { bindable, inject, BindingEngine, customElement, processContent, TargetInstruction } from 'aurelia-framework';
-import { GridColumn } from './grid/grid-column';
+import { GridColumn } from './grid-column';
 import { ViewCompiler, ViewSlot, ViewResources, Container } from 'aurelia-framework';
 
 export let Grid = (_dec = customElement('grid'), _dec2 = processContent(function (viewCompiler, viewResources, element, instruction) {
