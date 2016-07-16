@@ -9,7 +9,7 @@ var _dec, _dec2, _dec3, _class, _desc, _value, _class2, _descriptor, _descriptor
 
 var _aureliaFramework = require('aurelia-framework');
 
-var _gridColumn = require('grid/grid-column');
+var _gridColumn = require('./grid/grid-column');
 
 function _initDefineProp(target, property, descriptor, context) {
 	if (!descriptor) return;
