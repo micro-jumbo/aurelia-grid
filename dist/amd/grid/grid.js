@@ -1,4 +1,4 @@
-define(['exports', 'aurelia-framework', './grid-column'], function (exports, _aureliaFramework, _gridColumn) {
+define(['exports', 'aurelia-framework', 'grid/grid-column'], function (exports, _aureliaFramework, _gridColumn) {
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {

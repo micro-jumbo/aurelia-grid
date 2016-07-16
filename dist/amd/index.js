@@ -6,6 +6,6 @@ define(['exports'], function (exports) {
 	});
 	exports.configure = configure;
 	function configure(aurelia) {
-		aurelia.globalResources('./grid/grid');
+		aurelia.globalResources('grid/grid');
 	}
 });

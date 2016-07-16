@@ -1,5 +1,5 @@
 import {bindable, inject, BindingEngine, customElement, processContent, TargetInstruction } from 'aurelia-framework';
-import {GridColumn} from './grid-column';
+import {GridColumn} from 'grid/grid-column';
 import {ViewCompiler, ViewSlot, ViewResources, Container} from 'aurelia-framework';
 
 @customElement('grid')
