@@ -7,7 +7,7 @@ System.register([], function (_export, _context) {
 		setters: [],
 		execute: function () {
 			function configure(aurelia) {
-				aurelia.globalResources('grid/grid');
+				aurelia.globalResources('./grid/grid');
 			}
 
 			_export('configure', configure);
